@@ -147,7 +147,7 @@ Other        █░░░░░░░░░░░░░░   04.00 %
 
 <img src="https://readme-jokes.vercel.app/api?theme=tokyonight" alt="Jokes Card" />
 
-<!-- Snake Animation -->
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/shanudhatirosh/shanudhatirosh/blob/output/dist/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/shanudhatirosh/shanudhatirosh/blob/output/dist/github-contribution-grid-snake.svg" />
