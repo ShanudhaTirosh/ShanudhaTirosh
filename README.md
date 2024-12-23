@@ -1,3 +1,4 @@
+
 # Hi 👋, I'm Shanudha Tirosh
 
 <div align="center">
@@ -149,9 +150,9 @@ Other        █░░░░░░░░░░░░░░   04.00 %
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/shanudhatirosh/shanudhatirosh/blob/output/dist/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/shanudhatirosh/shanudhatirosh/blob/output/dist/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://github.com/shanudhatirosh/shanudhatirosh/blob/output/dist/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ShanudhaTirosh/ShanudhaTirosh/blob/output/dist/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/ShanudhaTirosh/ShanudhaTirosh/blob/output/dist/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://github.com/ShanudhaTirosh/ShanudhaTirosh/blob/output/dist/github-contribution-grid-snake.svg" />
 </picture>
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer)
