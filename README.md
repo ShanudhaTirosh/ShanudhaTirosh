@@ -140,7 +140,7 @@ Other        █░░░░░░░░░░░░░░   04.00 %
 ### ⚡ Fun Fact
 
 <img src="https://readme-jokes.vercel.app/api?theme=tokyonight" alt="Jokes Card" />
-[(https://github.com/Shanudhatirosh/shanudhatirosh/blob/output/github-contribution-grid-snake-dark.svg)]
+[![GitHub Snake](https://github.com/Shanudhatirosh/shanudhatirosh/blob/output/github-contribution-grid-snake-dark.svg)](https://github.com/Shanudhatirosh)
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer)
 
