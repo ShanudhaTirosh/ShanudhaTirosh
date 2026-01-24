@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>P. Shanudha Tirosh | Student Developer & Tech Enthusiast</title>
+    <meta name="description" content="Portfolio of P. Shanudha Tirosh - Student Developer from G/Dharmashoka College, Ambalangoda. Specializing in Web Development, Java, Python & C++.">
+    <meta name="keywords" content="Shanudha Tirosh, Student Developer, Web Developer, Java, Python, C++, Bootstrap, GitHub, Ambalangoda">
+    <meta name="author" content="P. Shanudha Tirosh">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="P. Shanudha Tirosh | Student Developer & Tech Enthusiast">
+    <meta property="og:description" content="Portfolio of P. Shanudha Tirosh - Student Developer specializing in Web Development, Java, Python & C++">
+    <meta property="og:url" content="https://shanudhatirosh.github.io">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/667eea/ffffff?text=P.+Shanudha+Tirosh">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="P. Shanudha Tirosh | Student Developer">
+    <meta name="twitter:description" content="Portfolio of P. Shanudha Tirosh - Student Developer & Tech Enthusiast">
+    <meta name="twitter:image" content="https://via.placeholder.com/1200x630/667eea/ffffff?text=P.+Shanudha+Tirosh">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://shanudhatirosh.github.io">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <style>
+        /* ========================================
+           Apple-Inspired Design System & Variables
+           ======================================== */
+        :root {
+            /* Light Mode Colors */
+            --bg-primary: #f5f5f7;
+            --bg-secondary: #ffffff;
+            --text-primary: #1d1d1f;
+            --text-secondary: #6e6e73;
+            --accent-primary: #0071e3;
+            --accent-secondary: #667eea;
+            --glass-bg: rgba(255, 255, 255, 0.7);
+            --glass-border: rgba(255, 255, 255, 0.18);
+            --shadow-color: rgba(0, 0, 0, 0.1);
+            
+            /* Typography - Apple System Fonts */
+            --font-primary: -apple-system, BlinkMacSystemFont, "San Francisco", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            
+            /* Spacing & Sizing */
+            --border-radius: 16px;
+            --transition-speed: 0.3s;
+        }
+        
+        /* Dark Mode Colors */
+        [data-theme="dark"] {
+            --bg-primary: #000000;
+            --bg-secondary: #1d1d1f;
+            --text-primary: #f5f5f7;
+            --text-secondary: #a1a1a6;
+            --glass-bg: rgba(29, 29, 31, 0.7);
+            --glass-border: rgba(255, 255, 255, 0.1);
+            --shadow-color: rgba(0, 0, 0, 0.5);
+        }
+        
+        /* ========================================
+           Base Styles
+           ======================================== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: var(--font-primary);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            transition: background var(--transition-speed), color var(--transition-speed);
+            overflow-x: hidden;
+        }
+        
+        /* ========================================
+           Glassmorphism Utility Classes
+           ======================================== */
+        .glass {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            box-shadow: 0 8px 32px var(--shadow-color);
+        }
+        
+        .glass-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--border-radius);
+            box-shadow: 0 8px 24px var(--shadow-color);
+            transition: all var(--transition-speed) cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .glass-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 40px var(--shadow-color);
+        }
+        
+        /* ========================================
+           Navigation Bar - Desktop & Mobile
+           ======================================== */
+        .navbar-glass {
+            position: fixed;
+            top: 18px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1000;
+            background: rgba(15, 15, 20, 0.55);
+            backdrop-filter: blur(30px);
+            -webkit-backdrop-filter: blur(30px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+            border-radius: 999px;
+            padding: 6px;
+            max-width: calc(100% - 36px);
+        }
+
+        .navbar-glass .container-fluid {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 0;
+        }
+
+        .navbar-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 6px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .nav-link {
+            height: 40px;
+            padding: 0 16px !important;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            border-radius: 999px;
+            font-size: 14px;
+            font-weight: 500;
+            color: rgba(255,255,255,0.85) !important;
+            transition: 0.25s ease;
+            white-space: nowrap;
+            text-decoration: none;
+        }
+
+        .nav-link i {
+            font-size: 16px;
+            line-height: 1;
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-link:hover {
+            background: rgba(255,255,255,0.12);
+        }
+
+        .nav-link.active {
+            background: rgba(255,255,255,0.18);
+        }
+
+        .theme-toggle {
+            height: 40px;
+            padding: 0 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 999px;
+            border: none;
+            cursor: pointer;
+            background: linear-gradient(135deg, #667eea, #764ba2, #f093fb);
+            color: #fff;
+            box-shadow: 0 4px 15px rgba(102,126,234,0.4);
+            transition: 0.25s ease;
+        }
+
+        .theme-toggle i {
+            font-size: 16px;
+            line-height: 1;
+        }
+
+        .theme-toggle:hover {
+            transform: scale(1.05);
+        }
+
+        /* Mobile Menu Toggle Button */
+        .mobile-menu-toggle {
+            display: none;
+            height: 40px;
+            width: 40px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.12);
+            border: none;
+            color: rgba(255,255,255,0.85);
+            cursor: pointer;
+            transition: 0.25s ease;
+        }
+
+        .mobile-menu-toggle:hover {
+            background: rgba(255,255,255,0.18);
+        }
+
+        .mobile-menu-toggle i {
+            font-size: 20px;
+        }
+
+        /* Mobile Dropdown Menu */
+        .mobile-menu {
+            display: none;
+            position: fixed;
+            top: 80px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: calc(100% - 36px);
+            max-width: 400px;
+            background: rgba(15, 15, 20, 0.95);
+            backdrop-filter: blur(30px);
+            -webkit-backdrop-filter: blur(30px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
+            padding: 12px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+            z-index: 999;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        .mobile-menu.active {
+            display: block;
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        .mobile-menu .nav-link {
+            width: 100%;
+            justify-content: flex-start;
+            margin-bottom: 4px;
+        }
+
+        .mobile-menu .nav-link span {
+            display: inline;
+        }
+
+        .mobile-menu-divider {
+            height: 1px;
+            background: rgba(255,255,255,0.1);
+            margin: 8px 0;
+        }
+        
+        /* ========================================
+           Hero Section
+           ======================================== */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            padding: 6rem 0;
+            background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+        }
+        
+        .hero-content {
+            text-align: center;
+            animation: fadeInUp 1s ease-out;
+        }
+        
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--glass-border);
+            box-shadow: 0 12px 40px var(--shadow-color);
+            margin-bottom: 2rem;
+            animation: fadeIn 1.2s ease-out;
+        }
+        
+        .hero h1 {
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            font-weight: 700;
+            letter-spacing: -2px;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hero p {
+            font-size: clamp(1.125rem, 2vw, 1.5rem);
+            color: var(--text-secondary);
+            margin-bottom: 2.5rem;
+            font-weight: 400;
+        }
+        
+        .btn-custom {
+            padding: 0.875rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            margin: 0.5rem;
+            transition: all var(--transition-speed) cubic-bezier(0.4, 0, 0.2, 1);
+            border: none;
+        }
+        
+        .btn-primary-custom {
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            color: white;
+        }
+        
+        .btn-primary-custom:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 32px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn-outline-custom {
+            background: transparent;
+            color: var(--text-primary);
+            border: 2px solid var(--accent-primary);
+        }
+        
+        .btn-outline-custom:hover {
+            background: var(--accent-primary);
+            color: white;
+            transform: translateY(-2px);
+        }
+        
+        /* ========================================
+           Section Styles
+           ======================================== */
+        section {
+            padding: 6rem 0;
+        }
+        
+        .section-title {
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 3rem;
+            letter-spacing: -1px;
+        }
+        
+        .section-subtitle {
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 1.125rem;
+            margin-bottom: 4rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        /* ========================================
+           About Section
+           ======================================== */
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .info-item {
+            display: flex;
+            align-items: center;
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--glass-border);
+        }
+        
+        .info-item:last-child {
+            border-bottom: none;
+        }
+        
+        .info-label {
+            font-weight: 600;
+            color: var(--text-secondary);
+            min-width: 120px;
+        }
+        
+        .info-value {
+            color: var(--text-primary);
+            font-weight: 500;
+        }
+        
+        /* ========================================
+           Skills Section
+           ======================================== */
+        .skill-card {
+            text-align: center;
+            padding: 2rem;
+            height: 100%;
+        }
+        
+        .skill-icon {
+            font-size: 3rem;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+        }
+        
+        .skill-card h4 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        
+        .skill-card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+        
+        /* ========================================
+           Projects Section
+           ======================================== */
+        .project-card {
+            padding: 2rem;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .project-card h4 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        
+        .project-card p {
+            color: var(--text-secondary);
+            flex-grow: 1;
+            margin-bottom: 1.5rem;
+        }
+        
+        .project-link {
+            color: var(--accent-primary);
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            transition: gap var(--transition-speed);
+        }
+        
+        .project-link:hover {
+            gap: 0.5rem;
+        }
+        
+        /* ========================================
+           Contact Section
+           ======================================== */
+        .contact-info {
+            margin-bottom: 3rem;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .contact-icon {
+            font-size: 1.5rem;
+            color: var(--accent-primary);
+            margin-right: 1rem;
+        }
+        
+        .contact-item a {
+            color: var(--text-primary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color var(--transition-speed);
+        }
+        
+        .contact-item a:hover {
+            color: var(--accent-primary);
+        }
+        
+        .contact-form {
+            padding: 2.5rem;
+        }
+        
+        .form-control, .form-control:focus {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            color: var(--text-primary);
+            padding: 0.875rem 1rem;
+            border-radius: 12px;
+            transition: all var(--transition-speed);
+        }
+        
+        .form-control:focus {
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+            border-color: var(--accent-primary);
+        }
+        
+        .form-label {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--text-primary);
+        }
+        
+        /* ========================================
+           Footer
+           ======================================== */
+        footer {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-top: 1px solid var(--glass-border);
+            padding: 3rem 0;
+            text-align: center;
+        }
+        
+        footer p {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+        
+        .footer-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            margin: 0 1rem;
+            transition: color var(--transition-speed);
+        }
+        
+        .footer-links a:hover {
+            color: var(--accent-primary);
+        }
+        
+        /* ========================================
+           Animations
+           ======================================== */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .fade-in {
+            animation: fadeInUp 0.8s ease-out;
+        }
+        
+        /* ========================================
+           Custom Scrollbar
+           ======================================== */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--glass-bg);
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        
+        /* ========================================
+           Responsive Design
+           ======================================== */
+        @media (max-width: 992px) {
+            .nav-link span {
+                display: none;
+            }
+
+            .nav-link {
+                padding: 0 12px !important;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .navbar-glass {
+                top: 12px;
+                border-radius: 50px;
+            }
+
+            .navbar-nav {
+                display: none !important;
+            }
+
+            .mobile-menu-toggle {
+                display: flex;
+            }
+
+            .hero {
+                padding: 5rem 0 4rem;
+            }
+            
+            section {
+                padding: 4rem 0;
+            }
+            
+            .contact-form {
+                padding: 1.5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .navbar-glass {
+                padding: 6px;
+                max-width: calc(100% - 24px);
+            }
+
+            .mobile-menu-toggle {
+                height: 36px;
+                width: 36px;
+            }
+
+            .mobile-menu-toggle i {
+                font-size: 18px;
+            }
+        }
+        
+        /* ========================================
+           Accessibility & Performance
+           ======================================== */
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation: none !important;
+                transition: none !important;
+            }
+        }
+        
+        /* Fallback for browsers without backdrop-filter support */
+        @supports not (backdrop-filter: blur(20px)) {
+            .glass, .glass-card, .navbar-glass, footer {
+                background: var(--bg-secondary);
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- ========================================
+         Navigation
+         ======================================== -->
+    <nav class="navbar-glass">
+        <div class="container-fluid">
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                <i class="bi bi-list"></i>
+            </button>
+            
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#home">
+                        <i class="bi bi-briefcase"></i>
+                        <span>Work</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">
+                        <i class="bi bi-person"></i>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">
+                        <i class="bi bi-lightning"></i>
+                        <span>Skills</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">
+                        <i class="bi bi-kanban"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">
+                        <i class="bi bi-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                        <i class="bi bi-moon-stars-fill"></i>
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <a href="https://github.com/ShanudhaTirosh" target="_blank" rel="noopener noreferrer" class="nav-link" aria-label="GitHub">
+                        <i class="bi bi-github"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.facebook.com/tirosh.shanudha" target="_blank" rel="noopener noreferrer" class="nav-link" aria-label="Facebook">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Dropdown -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a class="nav-link active" href="#home">
+            <i class="bi bi-briefcase"></i>
+            <span>Work</span>
+        </a>
+        <a class="nav-link" href="#about">
+            <i class="bi bi-person"></i>
+            <span>About</span>
+        </a>
+        <a class="nav-link" href="#skills">
+            <i class="bi bi-lightning"></i>
+            <span>Skills</span>
+        </a>
+        <a class="nav-link" href="#projects">
+            <i class="bi bi-kanban"></i>
+            <span>Projects</span>
+        </a>
+        <a class="nav-link" href="#contact">
+            <i class="bi bi-envelope"></i>
+            <span>Contact</span>
+        </a>
+        
+        <div class="mobile-menu-divider"></div>
+        
+        <a href="https://github.com/ShanudhaTirosh" target="_blank" rel="noopener noreferrer" class="nav-link">
+            <i class="bi bi-github"></i>
+            <span>GitHub</span>
+        </a>
+        <a href="https://www.facebook.com/tirosh.shanudha" target="_blank" rel="noopener noreferrer" class="nav-link">
+            <i class="bi bi-facebook"></i>
+            <span>Facebook</span>
+        </a>
+    </div>
+    
+    <!-- ========================================
+         Hero Section
+         ======================================== -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content glass-card p-5">
+                <img src="https://github.com/ShanudhaTirosh/ShanudhaTirosh/blob/6970492a67c5f3ba8b0be434212c2533695bad2d/FB_IMG_1769014630172.jpg?raw=true" alt="P. Shanudha Tirosh Profile Picture" class="profile-img">
+                <h1>P. Shanudha Tirosh</h1>
+                <p>Student Developer & Tech Enthusiast</p>
+                <div>
+                    <a href="#projects" class="btn-custom btn-primary-custom">View Projects</a>
+                    <a href="#contact" class="btn-custom btn-outline-custom">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ========================================
+         About Section
+         ======================================== -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">Passionate student developer dedicated to creating innovative solutions</p>
+            <div class="about-content glass-card p-5">
+                <img src="https://github.com/ShanudhaTirosh/ShanudhaTirosh/blob/6970492a67c5f3ba8b0be434212c2533695bad2d/FB_IMG_1769014630172.jpg?raw=true" alt="P. Shanudha Tirosh" class="profile-img" style="width: 120px; height: 120px; display: block; margin: 0 auto 2rem;">
+                <p style="font-size: 1.125rem; line-height: 1.8; margin-bottom: 2rem; text-align: center;">
+                    Hi! I'm Shanudha Tirosh, a passionate student developer from Sri Lanka. I love building web applications, 
+                    exploring new technologies, and solving complex problems through code. Currently studying at G/Dharmashoka College, 
+                    Ambalangoda, I'm constantly learning and growing my skills in software development.
+                </p>
+                <div class="info-item">
+                    <span class="info-label">Full Name</span>
+                    <span class="info-value">P. Shanudha Tirosh</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Age</span>
+                    <span class="info-value" id="age">Loading...</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">School</span>
+                    <span class="info-value">G/Dharmashoka College, Ambalangoda</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Email</span>
+                    <span class="info-value"><a href="mailto:tiroshbrot123@gmail.com" style="color: var(--accent-primary); text-decoration: none;">tiroshbrot123@gmail.com</a></span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Location</span>
+                    <span class="info-value">Ambalangoda, Sri Lanka</span>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- ========================================
+         Skills Section
+         ======================================== -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <p class="section-subtitle">Technologies I work with to bring ideas to life</p>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="glass-card skill-card fade-in">
+                        <i class="bi bi-code-slash skill-icon"></i>
+                        <h4>Web Development</h4>
+                        <p>HTML5, CSS3, JavaScript</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="glass-card skill-card fade-in" style="animation-delay: 0.1s;">
+                        <i class="bi bi-filetype-java skill-icon"></i>
+                        <h4>Programming</h4>
+                        <p>Java, Python, C++</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="glass-card skill-card fade-in" style="animation-delay: 0.2s;">
+                        <i class="bi bi-bootstrap-fill skill-icon"></i>
+                        <h4>Frameworks</h4>
+                        <p>Bootstrap, Responsive Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="glass-card skill-card fade-in" style="animation-delay: 0.3s;">
+                        <i class="bi bi-git skill-icon"></i>
+                        <h4>Version Control</h4>
+                        <p>Git, GitHub</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="glass-card skill-card fade-in" style="animation-delay: 0.4s;">
+                        <i class="bi bi-database-fill skill-icon"></i>
+                        <h4>Problem Solving</h4>
+                        <p>Algorithms, Data Structures</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="glass-card skill-card fade-in" style="animation-delay: 0.5s;">
+                        <i class="bi bi-lightbulb-fill skill-icon"></i>
+                        <h4>Quick Learner</h4>
+                        <p>Always exploring new tech</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ========================================
+         Projects Section
+         ======================================== -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">A showcase of my recent work and contributions</p>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="glass-card project-card">
+                        <h4>Portfolio Website</h4>
+                        <p>A modern, responsive portfolio website built with HTML, CSS, JavaScript, and Bootstrap 5. Features glassmorphism design, dark mode, and smooth animations.</p>
+                        <a href="https://github.com/ShanudhaTirosh" target="_blank" rel="noopener noreferrer" class="project-link">
+                            View on GitHub <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="glass-card project-card">
+                        <h4>Web Development Projects</h4>
+                        <p>Collection of web development projects showcasing skills in frontend development, responsive design, and modern web technologies.</p>
+                        <a href="https://github.com/ShanudhaTirosh" target="_blank" rel="noopener noreferrer" class="project-link">
+                            View on GitHub <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="glass-card project-card">
+                        <h4>Programming Exercises</h4>
+                        <p>Solutions to programming challenges and exercises in Java, Python, and C++. Demonstrating problem-solving skills and algorithmic thinking.</p>
+                        <a href="https://github.com/ShanudhaTirosh" target="_blank" rel="noopener noreferrer" class="project-link">
+                            View on GitHub <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="glass-card project-card">
+                        <h4>Open Source Contributions</h4>
+                        <p>Contributing to open source projects and collaborating with the developer community. Learning and growing through real-world projects.</p>
+                        <a href="https://github.com/ShanudhaTirosh" target="_blank" rel="noopener noreferrer" class="project-link">
+                            View on GitHub <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ========================================
+         Contact Section
+         ======================================== -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Feel free to reach out for collaborations or just a friendly chat</p>
+            <div class="row g-4">
+                <div class="col-lg-5">
+                    <div class="contact-info">
+                        <div class="glass-card contact-item">
+                            <i class="bi bi-envelope-fill contact-icon"></i>
+                            <div>
+                                <h5>Email</h5>
+                                <a href="mailto:tiroshbrot123@gmail.com">tiroshbrot123@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="glass-card contact-item">
+                            <i class="bi bi-whatsapp contact-icon"></i>
+                            <div>
+                                <h5>WhatsApp</h5>
+                                <a href="https://wa.me/94765749332" target="_blank" rel="noopener noreferrer">+94 76 574 9332</a>
+                            </div>
+                        </div>
+                        <div class="glass-card contact-item">
+                            <i class="bi bi-telephone-fill contact-icon"></i>
+                            <div>
+                                <h5>Phone</h5>
+                                <a href="tel:+94765749332">+94 76 574 9332</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <form class="glass-card contact-form" id="contactForm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-custom btn-primary-custom w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ========================================
+         Footer
+         ======================================== -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> P. Shanudha Tirosh. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com/ShanudhaTirosh" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.facebook.com/tirosh.shanudha" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <a href="mailto:tiroshbrot123@gmail.com">Email</a>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        /* ========================================
+           Age Calculation
+           ======================================== */
+        function calculateAge() {
+            const birthDate = new Date('2009-03-25');
+            const today = new Date();
+            let age = today.getFullYear() - birthDate.getFullYear();
+            const monthDiff = today.getMonth() - birthDate.getMonth();
+            
+            if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+                age--;
+            }
+            
+            document.getElementById('age').textContent = age + ' years old';
+        }
+        
+        /* ========================================
+           Theme Toggle Functionality
+           ======================================== */
+        const themeToggle = document.getElementById('themeToggle');
+        const htmlElement = document.documentElement;
+        const themeIcon = themeToggle.querySelector('i');
+        
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        htmlElement.setAttribute('data-theme', currentTheme);
+        updateThemeIcon(currentTheme);
+        
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = htmlElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            
+            htmlElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateThemeIcon(newTheme);
+        });
+        
+        function updateThemeIcon(theme) {
+            if (theme === 'dark') {
+                themeIcon.className = 'bi bi-sun-fill';
+            } else {
+                themeIcon.className = 'bi bi-moon-stars-fill';
+            }
+        }
+        
+        /* ========================================
+           Mobile Menu Toggle
+           ======================================== */
+        const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+        const mobileMenu = document.getElementById('mobileMenu');
+        
+        if (mobileMenuToggle && mobileMenu) {
+            mobileMenuToggle.addEventListener('click', (e) => {
+                e.stopPropagation();
+                mobileMenu.classList.toggle('active');
+                const icon = mobileMenuToggle.querySelector('i');
+                
+                if (mobileMenu.classList.contains('active')) {
+                    icon.className = 'bi bi-x-lg';
+                } else {
+                    icon.className = 'bi bi-list';
+                }
+            });
+            
+            document.querySelectorAll('.mobile-menu .nav-link').forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.remove('active');
+                    mobileMenuToggle.querySelector('i').className = 'bi bi-list';
+                });
+            });
+            
+            document.addEventListener('click', (e) => {
+                if (!mobileMenu.contains(e.target) && !mobileMenuToggle.contains(e.target)) {
+                    mobileMenu.classList.remove('active');
+                    mobileMenuToggle.querySelector('i').className = 'bi bi-list';
+                }
+            });
+        }
+        
+        /* ========================================
+           Smooth Scrolling for Navigation Links
+           ======================================== */
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                
+                if (target) {
+                    const navbarHeight = 80;
+                    const targetPosition = target.offsetTop - navbarHeight;
+                    
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        /* ========================================
+           Contact Form Handling
+           ======================================== */
+        const contactForm = document.getElementById('contactForm');
+        
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            
+            const subject = encodeURIComponent(`Portfolio Contact from ${name}`);
+            const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
+            const mailtoLink = `mailto:tiroshbrot123@gmail.com?subject=${subject}&body=${body}`;
+            
+            window.location.href = mailtoLink;
+            
+            alert('Thank you for your message! Your default email client will open.');
+            
+            contactForm.reset();
+        });
+        
+        /* ========================================
+           Update Current Year in Footer
+           ======================================== */
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+        
+        /* ========================================
+           Intersection Observer for Fade-in Animations
+           ======================================== */
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+        
+        document.querySelectorAll('.glass-card').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(30px)';
+            card.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
+            observer.observe(card);
+        });
+        
+        /* ========================================
+           Active Navigation Link Highlighting
+           ======================================== */
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.nav-link[href^="#"]');
+            
+            let current = '';
+            const navbarHeight = 80;
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - navbarHeight - 100;
+                const sectionHeight = section.offsetHeight;
+                
+                if (window.pageYOffset >= sectionTop && window.pageYOffset < sectionTop + sectionHeight) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+        
+        /* ========================================
+           Initialize on Page Load
+           ======================================== */
+        document.addEventListener('DOMContentLoaded', () => {
+            calculateAge();
+        });
+    </script>
+</body>
+</html></parameter>
