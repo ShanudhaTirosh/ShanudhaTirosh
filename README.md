@@ -1,7 +1,7 @@
-<!-- Header -->
-<div align="center">
+<!-- Header: kept outside HTML blocks so ampersands in URLs are safe -->
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=300&section=header&text=Shanudha%20Tirosh&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Android%20System%20%7C%20Full-Stack%20Web%20%7C%20IoT%20%2B%20Bot%20Dev&descAlignY=51&descAlign=50)
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=300&section=header&text=Shanudha%20Tirosh&fontSize=90&animation=fadeIn&fontAlignY=38&desc=%F0%9F%93%B1%20Android%20System%20Internals%20|%20%F0%9F%8C%90%20Full-Stack%20Web%20|%20%F0%9F%A4%96%20IoT%20%26%20Bot%20Dev&descAlignY=51&descAlign=50)
+<div align="center">
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3500&pause=1000&color=7AA2F7&center=true&vCenter=true&random=false&width=700&lines=Building+the+Future+of+Mobile+Networking+%F0%9F%9A%80;Full-Stack+Developer+from+Sri+Lanka+%F0%9F%87%B1%F0%9F%87%B0;Android+System+%26+Root+Tooling+Enthusiast+%F0%9F%94%A7;WhatsApp+Bot+Architect+%F0%9F%A4%96;Firebase+%26+React+Power+User+%E2%9A%A1)](https://git.io/typing-svg)
 
@@ -177,10 +177,10 @@ const tirosh: Developer = {
 
 | **Activity & Contributions** | **Languages Used** |
 | :---: | :---: |
-| <img src="https://github-readme-stats.vercel.app/api?username=shanudhatirosh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="400" /> | <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shanudhatirosh&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" width="400" /> |
-| <img src="https://github-readme-streak-stats.herokuapp.com/?user=shanudhatirosh&theme=tokyonight&hide_border=true" width="400" /> | <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shanudhatirosh&theme=tokyonight&utcOffset=5.5" width="400" /> |
+| <img src="https://github-readme-stats.vercel.app/api?username=shanudhatirosh&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;count_private=true" width="400" /> | <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shanudhatirosh&amp;theme=tokyonight&amp;hide_border=true&amp;layout=compact&amp;langs_count=8" width="400" /> |
+| <img src="https://github-readme-streak-stats.herokuapp.com/?user=shanudhatirosh&amp;theme=tokyonight&amp;hide_border=true" width="400" /> | <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shanudhatirosh&amp;theme=tokyonight&amp;utcOffset=5.5" width="400" /> |
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=shanudhatirosh&theme=tokyonight&hide_border=true&custom_title=Contribution%20Dynamics" width="850" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=shanudhatirosh&amp;theme=tokyonight&amp;hide_border=true&amp;custom_title=Contribution%20Dynamics" width="850" />
 
 </div>
 
@@ -189,7 +189,7 @@ const tirosh: Developer = {
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=shanudhatirosh&theme=tokyonight&no-frame=true&column=4&margin-w=15&margin-h=15" alt="GitHub Trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=shanudhatirosh&amp;theme=tokyonight&amp;no-frame=true&amp;column=4&amp;margin-w=15&amp;margin-h=15" alt="GitHub Trophies"/>
 </div>
 
 ---
@@ -315,8 +315,8 @@ Python       █░░░░░░░░░░░░░░   04.00 %
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shanudha-tirosh-93454b305)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/message/7EQ5767QQETQG1)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shanudhatirosh/)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/message/QP3K6ULE2CLAC1)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tiroshbrot123@gmail.com)
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/tirosh.shanudha)
 [![CodePen](https://img.shields.io/badge/CodePen-%23000000.svg?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/@Shanudha-Tirosh)
@@ -336,7 +336,7 @@ Python       █░░░░░░░░░░░░░░   04.00 %
 If you find my projects helpful or interesting, consider:
 
 [![GitHub Sponsors](https://img.shields.io/badge/Sponsor%20me%20on-GitHub-%23EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/shanudhatirosh)
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](buymeacoffee.com/shanudhatirosh)
 
 *Every star ⭐ on a repo means the world to me — it keeps me motivated to keep building!*
 
@@ -370,12 +370,12 @@ If you find my projects helpful or interesting, consider:
 
 <div align="center">
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote"/>
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&amp;theme=tokyonight" alt="Dev Quote"/>
 
 <br><br>
 
 *Built with ❤️ from Sri Lanka 🇱🇰 | ShanuFx © 2026*
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer)
-
 </div>
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer)
