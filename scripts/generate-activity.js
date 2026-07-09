@@ -71,35 +71,62 @@ async function toBase64(url) {
 // ─── Discord asset URL resolution ─────────────────────────────────────────────
 
 /**
- * Converts a Lanyard asset key to a fetchable URL.
+ * Converts a Lanyard asset key into an ORDERED LIST of candidate fetchable URLs.
  *
  * Lanyard stores asset keys in three formats:
  *   mp:external/<hash>/...  → Discord media proxy wrapping an external image
  *   spotify:<trackId>       → Spotify album art
  *   <assetKey>              → Discord CDN app asset
+ *
+ * Discord CDN app-assets are usually .png, but some RPC apps register
+ * webp/jpg-only assets. Rather than assume .png and silently show the
+ * "?" fallback when that guess is wrong, we return every extension we
+ * know Discord serves and let the caller try them in order until one
+ * actually resolves (see resolveToBase64 below).
  */
-function resolveAssetUrl(applicationId, key) {
-  if (!key) return null;
+function candidateAssetUrls(applicationId, key) {
+  if (!key) return [];
 
   // External image piped through Discord's media proxy
   if (key.startsWith('mp:external/')) {
     const rest = key.slice('mp:external/'.length);
-    return `https://media.discordapp.net/external/${rest}`;
+    return [`https://media.discordapp.net/external/${rest}`];
   }
 
   // Spotify album art
   if (key.startsWith('spotify:')) {
-    return `https://i.scdn.co/image/${key.slice('spotify:'.length)}`;
+    return [`https://i.scdn.co/image/${key.slice('spotify:'.length)}`];
   }
 
   // Already a full URL
-  if (/^https?:\/\//.test(key)) return key;
+  if (/^https?:\/\//.test(key)) return [key];
 
-  // Standard Discord CDN app asset
+  // Standard Discord CDN app asset — try each extension Discord actually serves
   if (applicationId) {
-    return `https://cdn.discordapp.com/app-assets/${applicationId}/${key}.png`;
+    return ['png', 'webp', 'jpg', 'jpeg'].map(
+      ext => `https://cdn.discordapp.com/app-assets/${applicationId}/${key}.${ext}`
+    );
   }
 
+  return [];
+}
+
+/**
+ * Tries every candidate URL for an asset key, in order, and returns the
+ * first one that actually downloads successfully as a base64 data URI.
+ * Returns null if every candidate fails (caller then falls back to the
+ * drawn placeholder icon in buildSVG — never a broken "?" image).
+ */
+async function resolveToBase64(applicationId, key, label) {
+  const candidates = candidateAssetUrls(applicationId, key);
+  if (candidates.length === 0) return null;
+
+  for (const url of candidates) {
+    const result = await toBase64(url);
+    if (result) return result;
+  }
+
+  console.log(`     ↳ ⚠️  All ${candidates.length} extension(s) failed for ${label} asset "${key}" — using drawn fallback icon`);
   return null;
 }
 
@@ -301,33 +328,27 @@ async function main() {
     );
   }
 
-  // 2. Resolve URLs for all images we need
+  // 2. Resolve + fetch all images as base64
   const mainActivity = activities.find(a => a.type !== 4) ?? null;
 
-  const imageUrls = {
-    avatar: discord_user?.avatar
-      ? `https://cdn.discordapp.com/avatars/${discord_user.id}/${discord_user.avatar}.png?size=128`
-      : null,
-    large: mainActivity
-      ? resolveAssetUrl(mainActivity.application_id, mainActivity.assets?.large_image)
-      : null,
-    small: mainActivity
-      ? resolveAssetUrl(mainActivity.application_id, mainActivity.assets?.small_image)
-      : null,
-  };
+  const avatarUrl = discord_user?.avatar
+    ? `https://cdn.discordapp.com/avatars/${discord_user.id}/${discord_user.avatar}.png?size=128`
+    : null;
 
-  console.log('\n🖼  Resolved image URLs:');
-  for (const [k, v] of Object.entries(imageUrls)) {
-    console.log(`   ${k.padEnd(6)} → ${v ?? '(none)'}`);
+  console.log('\n🖼  Resolving + fetching images as base64:');
+  console.log(`   avatar → ${avatarUrl ?? '(none)'}`);
+  const avatar = await toBase64(avatarUrl);
+
+  let large = null;
+  let small = null;
+  if (mainActivity) {
+    const largeKey = mainActivity.assets?.large_image;
+    const smallKey = mainActivity.assets?.small_image;
+    console.log(`   large  → key "${largeKey ?? '(none)'}" (app ${mainActivity.application_id ?? 'n/a'})`);
+    large = await resolveToBase64(mainActivity.application_id, largeKey, 'large');
+    console.log(`   small  → key "${smallKey ?? '(none)'}" (app ${mainActivity.application_id ?? 'n/a'})`);
+    small = await resolveToBase64(mainActivity.application_id, smallKey, 'small');
   }
-
-  // 3. Fetch all images as base64 in parallel (fixes Discord CDN blocking)
-  console.log('\n⬇️  Fetching images as base64:');
-  const [avatar, large, small] = await Promise.all([
-    toBase64(imageUrls.avatar),
-    toBase64(imageUrls.large),
-    toBase64(imageUrls.small),
-  ]);
 
   const images = { avatar, large, small };
 
