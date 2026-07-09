@@ -192,8 +192,8 @@ const tirosh: Developer = {
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=shanudhatirosh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github&include_all_commits=true" width="49%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shanudhatirosh&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" width="49%" />
+<img src="https://github-readme-stats-zeta-ten-zwu9lyvhf7.vercel.app/api?username=shanudhatirosh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github&include_all_commits=true" width="49%" />
+<img src="https://github-readme-stats-zeta-ten-zwu9lyvhf7.vercel.app/api/top-langs/?username=shanudhatirosh&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" width="49%" />
 
 <br/>
 
@@ -360,7 +360,7 @@ Python       █░░░░░░░░░░░░░░   04.00 %
   <tr>
     <td width="50%" valign="top" align="center">
       <br>
-      <img src="https://github.com/ShanudhaTirosh/BRAND_LOGOS/blob/a7caac93021dbd25d4ae108945fea5b9f549bc5f/SHANUTECHX.png" />
+      <img src="https://raw.githubusercontent.com/ShanudhaTirosh/ShanudhaTirosh/main/SHANUTECHX.png" />
       <br><br>
       <p>📡 <b>ShanuTechX</b> is my personal tech channel where I share real-world tools, scripts, tutorials, and project updates — built for the <b>Sri Lankan developer community</b> and beyond.</p>
       <p>🔧 Covers VPN configs, Android root tooling, bot setups, open source drops, and behind-the-scenes of everything I build under <b>ShanuFx</b>.</p>
