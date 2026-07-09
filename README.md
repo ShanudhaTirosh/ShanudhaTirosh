@@ -236,7 +236,7 @@ const tirosh: Developer = {
 
 [![Discord Server](https://img.shields.io/discord/1496522681007210577?style=for-the-badge&logo=discord&logoColor=white&label=ShanuFx%20Community&color=5865F2)](https://discord.gg/Rzq4fnUuy)
 
-[![Discord Presence](https://lanyard.cnrad.dev/api/1477941751699214478?theme=dark&bg=0d1117&borderRadius=10px&idleMessage=Probably+shipping+code...&hideDiscrim=true&animated=true)](https://discord.com/users/1477941751699214478)
+[![Discord Activity](./assets/discord-activity.svg)](https://discord.com/users/1477941751699214478)
 
 </div>
 
