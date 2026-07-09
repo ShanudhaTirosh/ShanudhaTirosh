@@ -236,8 +236,6 @@ const tirosh: Developer = {
 
 [![Discord Server](https://img.shields.io/discord/1496522681007210577?style=for-the-badge&logo=discord&logoColor=white&label=ShanuFx%20Community&color=5865F2)](https://discord.gg/Rzq4fnUuy)
 
-<!-- Replace YOUR_DISCORD_USER_ID below with your actual Discord User ID for the live presence card -->
-<!-- To enable: Join https://discord.gg/lanyard and get your User ID from Discord settings -->
 
 [![Discord Presence](https://lanyard.cnrad.dev/api/1477941751699214478?theme=dark&bg=0d1117&borderRadius=10px&idleMessage=Probably+shipping+code...&hideDiscrim=true)](https://discord.com/users/1477941751699214478)
 
@@ -362,7 +360,7 @@ Python       █░░░░░░░░░░░░░░   04.00 %
   <tr>
     <td width="50%" valign="top" align="center">
       <br>
-      <img src="https://raw.githubusercontent.com/ShanudhaTirosh/BRAND_LOGOS/main/SHANUTECHX.png" />
+      <img src="https://github.com/ShanudhaTirosh/BRAND_LOGOS/blob/a7caac93021dbd25d4ae108945fea5b9f549bc5f/SHANUTECHX.png" />
       <br><br>
       <p>📡 <b>ShanuTechX</b> is my personal tech channel where I share real-world tools, scripts, tutorials, and project updates — built for the <b>Sri Lankan developer community</b> and beyond.</p>
       <p>🔧 Covers VPN configs, Android root tooling, bot setups, open source drops, and behind-the-scenes of everything I build under <b>ShanuFx</b>.</p>
