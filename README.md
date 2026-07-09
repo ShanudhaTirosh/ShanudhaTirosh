@@ -192,17 +192,17 @@ const tirosh: Developer = {
 
 <div align="center">
 
-<img src="https://github-readme-stats-zeta-ten-zwu9lyvhf7.vercel.app/api?username=shanudhatirosh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github&include_all_commits=true" width="49%" />
-<img src="https://github-readme-stats-zeta-ten-zwu9lyvhf7.vercel.app/api/top-langs/?username=shanudhatirosh&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" width="49%" />
+<img src="https://github-readme-stats-zeta-ten-zwu9lyvhf7.vercel.app/api?username=shanudhatirosh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github&include_all_commits=true" width="420" height="195" alt="GitHub Stats" />
+<img src="https://github-readme-stats-zeta-ten-zwu9lyvhf7.vercel.app/api/top-langs/?username=shanudhatirosh&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" width="420" height="195" alt="Top Languages" />
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=shanudhatirosh&theme=tokyonight&hide_border=true" width="49%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shanudhatirosh&theme=tokyonight&utcOffset=5.5" width="49%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=shanudhatirosh&theme=tokyonight&hide_border=true" width="420" height="195" alt="GitHub Streak" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shanudhatirosh&theme=tokyonight&utcOffset=5.5" width="420" height="195" alt="Productive Time" />
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=shanudhatirosh&theme=tokyo-night&hide_border=true&custom_title=Contribution%20Dynamics&area=true" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=shanudhatirosh&theme=tokyo-night&hide_border=true&custom_title=Contribution%20Dynamics&area=true" width="860" height="300" alt="Activity Graph" />
 
 </div>
 
@@ -220,9 +220,9 @@ const tirosh: Developer = {
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/message/QP3K6ULE2CLAC1)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tiroshbrot123@gmail.com)
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/tirosh.shanudha)
-[![CodePen](https://img.shields.io/badge/CodePen-%23000000.svg?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/@Shanudha-Tirosh)
+[![CodePen](https://img.shields.io/badge/CodePen-%23000000.svg?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/Shanudha-Tirosh)
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@ShanuFx)
-[![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?style=for-the-badge&logo=tiktok&logoColor=white)](https://tiktok.com/@shanudhatirosh)
+[![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@shanu_fx)
 
 </div>
 
@@ -236,8 +236,7 @@ const tirosh: Developer = {
 
 [![Discord Server](https://img.shields.io/discord/1496522681007210577?style=for-the-badge&logo=discord&logoColor=white&label=ShanuFx%20Community&color=5865F2)](https://discord.gg/Rzq4fnUuy)
 
-
-[![Discord Presence](https://lanyard.cnrad.dev/api/1477941751699214478?theme=dark&bg=0d1117&borderRadius=10px&idleMessage=Probably+shipping+code...&hideDiscrim=true)](https://discord.com/users/1477941751699214478)
+[![Discord Presence](https://lanyard.cnrad.dev/api/1477941751699214478?theme=dark&bg=0d1117&borderRadius=10px&idleMessage=Probably+shipping+code...&hideDiscrim=true&animated=true)](https://discord.com/users/1477941751699214478)
 
 </div>
 
@@ -299,7 +298,7 @@ Python       █░░░░░░░░░░░░░░   04.00 %
   <tr>
     <td>
       <b>Q1–Q2 2026</b><br>
-      ✅ NovaNexX VPN Core — stable & open source<br>
+      ✅ NovaNexX VPN Core — stable &amp; open source<br>
       ✅ Cenova Cinema Export Manager — stable<br>
       🔄 NovaNexX Platform frontend + payment flows<br>
       🔄 Nexsuse Admin Panel — base features<br>
@@ -310,7 +309,7 @@ Python       █░░░░░░░░░░░░░░   04.00 %
       ⬜ Nexses Platform full launch<br>
       ⬜ NoxaPOS — stable release<br>
       ⬜ SHANU-MD v3 — plugin ecosystem<br>
-      ⬜ Advanced Android Security & Internals<br>
+      ⬜ Advanced Android Security &amp; Internals<br>
       ⬜ Open source milestone: 10+ active repos
     </td>
   </tr>
@@ -353,18 +352,17 @@ Python       █░░░░░░░░░░░░░░   04.00 %
 
 ![ShanuTechX Banner](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=24&height=120&text=ShanuTechX&fontSize=55&fontColor=ffffff&animation=fadeIn&desc=Tech%20%7C%20Tools%20%7C%20Tutorials%20%7C%20Sri%20Lanka&descAlignY=75&descAlign=50&fontAlignY=42)
 
-
 </div>
 
 <table align="center">
   <tr>
     <td width="50%" valign="top" align="center">
       <br>
-      <img src="https://raw.githubusercontent.com/ShanudhaTirosh/ShanudhaTirosh/main/SHANUTECHX.png" />
+      <img src="https://raw.githubusercontent.com/ShanudhaTirosh/ShanudhaTirosh/main/SHANUTECHX.png" width="320" height="auto" alt="ShanuTechX Logo" />
       <br><br>
       <p>📡 <b>ShanuTechX</b> is my personal tech channel where I share real-world tools, scripts, tutorials, and project updates — built for the <b>Sri Lankan developer community</b> and beyond.</p>
       <p>🔧 Covers VPN configs, Android root tooling, bot setups, open source drops, and behind-the-scenes of everything I build under <b>ShanuFx</b>.</p>
-      <p>🌐 <b>Website:</b> <a href="https://novanetxlk.web.app">novanetx</a></p>
+      <p>🌐 <b>Website:</b> <a href="https://novanetxlk.web.app">novanetxlk.web.app</a></p>
     </td>
     <td width="50%" valign="top" align="center">
       <br>
@@ -389,7 +387,7 @@ Python       █░░░░░░░░░░░░░░   04.00 %
 
 [![Telegram Channel](https://img.shields.io/badge/Join%20ShanuTechX-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Shanudha_tirosh)
 [![GitHub](https://img.shields.io/badge/ShanudhaTirosh-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ShanudhaTirosh)
-[![Netch Solutions](https://img.shields.io/badge/Netch%20Solutions-Website-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://novanetxlk.web.app)
+[![NovaNexX](https://img.shields.io/badge/NovaNexX-Website-00C7B7?style=for-the-badge&logo=vercel&logoColor=white)](https://novanetxlk.web.app)
 
 </div>
 
@@ -434,7 +432,7 @@ If you find my projects helpful or interesting, consider:
 
 <div align="center">
 
-<img src="https://readme-jokes.vercel.app/api?theme=tokyonight" alt="Jokes Card" />
+<img src="https://readme-jokes.vercel.app/api?theme=tokyonight" alt="Jokes Card"/>
 
 </div>
 
@@ -447,7 +445,7 @@ If you find my projects helpful or interesting, consider:
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShanudhaTirosh/ShanudhaTirosh/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ShanudhaTirosh/ShanudhaTirosh/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/ShanudhaTirosh/ShanudhaTirosh/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/ShanudhaTirosh/ShanudhaTirosh/output/github-snake.svg"/>
 </picture>
 
 </div>
@@ -456,11 +454,11 @@ If you find my projects helpful or interesting, consider:
 
 <div align="center">
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote"/>
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" width="640" height="120" />
 
 <br><br>
 
-*Built with ❤️ from Sri Lanka 🇱🇰 | ShanuFx & ShanuTechX © 2026*
+*Built with ❤️ from Sri Lanka 🇱🇰 | ShanuFx &amp; ShanuTechX © 2026*
 
 </div>
 
