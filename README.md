@@ -1,5 +1,5 @@
-<!-- Header: kept outside HTML blocks so ampersands in URLs are safe -->
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=300&section=header&text=Shanudha%20Tirosh&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Android%20System%20%7C%20Full-Stack%20Web%20%7C%20IoT%20%2B%20Bot%20Dev&descAlignY=51&descAlign=50)
+<!-- Header -->
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=Shanudha%20Tirosh&fontSize=65&animation=fadeIn&fontAlignY=42&desc=Android%20System%20%7C%20Full-Stack%20Web%20%7C%20IoT%20%2B%20Bot%20Dev&descAlignY=60&descAlign=50)
 
 <div align="center">
 
@@ -21,26 +21,34 @@
   <tr>
     <td width="55%" valign="top">
       <p>👋 I'm a <b>self-taught developer</b> based in <b>Sri Lanka 🌴</b>, building things that actually matter — from VPN hosting platforms to WhatsApp automation bots to smart IoT systems.</p>
-      <p>website url https://shanu-fx.web.app/ </p>
+      <p>🌐 <b>Website:</b> <a href="https://shanu-fx.web.app/">shanu-fx.web.app</a></p>
       <p>I specialize in <b>Android System Engineering</b>, <b>Full-Stack Web Development</b>, and <b>Bot Architecture</b>. I don't build prototypes — I build <i>production-ready systems</i>.</p>
-      <p>🔭 <b>2026 Focus:</b> NovaNexX VPN Platform, Advanced Android Security & Cyber-Architectures.</p>
+      <p>🔭 <b>2026 Focus:</b> NovaNexX VPN Platform, Nexses Ecosystem, Cenova Cinema Suite & Advanced Android Security.</p>
       <p>🌱 <b>Currently Deep-Diving:</b> Firebase performance optimization, React advanced patterns, and Baileys bot architecture.</p>
-      <p>🎯 <b>Brand:</b> Everything I ship goes under <b>ShanuFx</b> — quality, dark UI, and real-world impact.</p>
+      <p>🎯 <b>Brands:</b> Everything I ship goes under <b>ShanuFx</b> — quality, dark UI, real-world impact. Tech content & community lives on <b>ShanuTechX</b> 📡.</p>
     </td>
     <td width="45%" valign="top">
 
 ```typescript
 const tirosh: Developer = {
   name: "Shanudha Tirosh",
-  brand: "ShanuFx",
+  brands: {
+    main:    "ShanuFx ⚡",
+    channel: "ShanuTechX 📡",
+    company: "Netch Solutions 🌐",
+  },
   location: "Sri Lanka 🌴",
   stack: {
-    mobile:   ["Android", "Kotlin", "Jetpack Compose"],
-    web:      ["React", "Vite", "Firebase"],
-    bots:     ["Baileys", "Node.js", "WhatsApp"],
-    iot:      ["ESP8266", "NodeMCU", "MQTT"],
+    mobile:  ["Android", "Kotlin", "Jetpack Compose"],
+    web:     ["React", "Next.js", "Firebase"],
+    bots:    ["Baileys", "Node.js", "WhatsApp"],
+    iot:     ["ESP8266", "NodeMCU", "MQTT"],
   },
-  currentProject: "NovaNexX VPN Platform 🔐",
+  currentBuilding: [
+    "NovaNexX Ecosystem 🔐",
+    "Nexses Platform 🌐",
+    "NoxaPOS 🛒",
+  ],
   motto: "Don't prototype. Ship. 🚀",
   openTo: ["Collabs", "Open Source", "Freelance"],
 };
@@ -56,26 +64,26 @@ const tirosh: Developer = {
 
 <div align="center">
 
-> **NovaNexX** — A full-featured VPN hosting platform with React + Firebase + Vite, V2Ray/proxy config generation, manual payment flows (HelaPay, eZcash, Bank Transfer), and a WhatsApp admin bot for real-time site management.
+> **NovaNexX Ecosystem** — Full-featured VPN hosting platform with React + Firebase + Vite, V2Ray/Xray core, manual payment flows (HelaPay, eZcash, Bank Transfer), Nexsuse admin panel, and a WhatsApp admin bot for real-time site management.
 
 </div>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
-│                       NovaNexX Ecosystem                           │
+│                       ShanuFx Ecosystem 2026                        │
 │                                                                     │
 │  ┌──────────────┐    ┌──────────────┐    ┌──────────────────────┐  │
 │  │  React + Vite │───▶│   Firebase   │◀───│  WhatsApp Admin Bot  │  │
 │  │  Glassmorphic │    │  Firestore + │    │  (Baileys + Node.js) │  │
 │  │  Dark UI ✨   │    │  Auth + RTDB │    │  Full site control   │  │
 │  └──────────────┘    └──────────────┘    └──────────────────────┘  │
-│         │                                          │                │
-│         ▼                                          ▼                │
-│  ┌──────────────┐                      ┌──────────────────────┐    │
-│  │ V2Ray Config │                      │  Payment Approvals   │    │
-│  │  Generator   │                      │  User Management     │    │
-│  │  (Proxy/VPN) │                      │  Real-time Alerts    │    │
-│  └──────────────┘                      └──────────────────────┘    │
+│         │                   │                        │              │
+│         ▼                   ▼                        ▼              │
+│  ┌──────────────┐    ┌─────────────┐    ┌──────────────────────┐  │
+│  │  NovaNexX    │    │  Nexsuse    │    │  NoxaPOS             │  │
+│  │  VPN Core    │    │  Panel      │    │  Point of Sale       │  │
+│  │  (Xray/V2Ray)│    │  Admin UI   │    │  System              │  │
+│  └──────────────┘    └─────────────┘    └──────────────────────┘  │
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -85,17 +93,17 @@ const tirosh: Developer = {
 
 <div align="center">
 
-| [**NovaNexX VPN**](https://github.com/shanudhatirosh) | [**Novamesh**](https://github.com/shanudhatirosh/Novamesh) | [**SHANU-MD**](https://github.com/shanudhatirosh/SHANU-MD) |
+| [**NovaNexX**](https://github.com/shanudhatirosh) | [**Nexses Platform**](https://github.com/shanudhatirosh) | [**SHANU-MD**](https://github.com/shanudhatirosh/SHANU-MD) |
 | :---: | :---: | :---: |
-| 🔐 VPN Hosting Platform | 🌐 Smart Hotspot OS | 🤖 Multi-Device Bot |
-| React · Firebase · V2Ray | Android · Firebase · Root | Baileys · MongoDB · Node.js |
-| `Production` | `Active` | `Stable` |
+| 🔐 VPN Hosting Platform | 🌐 All-in-one Web Platform | 🤖 Multi-Device Bot |
+| React · Firebase · V2Ray | Next.js · Firebase · Node.js | Baileys · MongoDB · Node.js |
+| `In Dev` | `In Dev` | `In Dev` |
 
-| [**LankaTrack**](https://github.com/shanudhatirosh) | [**ShanuFx HotspotX**](https://github.com/shanudhatirosh) | [**Smart-Plant-IoT**](https://github.com/shanudhatirosh/Esp8266-smart-iot-progect) |
+| [**Nexsuse Panel**](https://github.com/shanudhatirosh) | [**NoxaPOS**](https://github.com/shanudhatirosh) | [**Cenova Cinema**](https://github.com/shanudhatirosh) |
 | :---: | :---: | :---: |
-| 🚌 Real-time Bus Tracker | 📡 Network Utility App | 🌱 Automated Irrigation |
-| Leaflet.js · Firebase | Kotlin · Jetpack Compose | ESP8266 · MQTT · C++ |
-| `Live` | `CI/CD via GitHub Actions` | `Deployed` |
+| 🛠️ Admin Control Panel | 🛒 Point of Sale System | 🎬 Cinema Export Manager |
+| React · Node.js · Firebase | React · Node.js · Firebase | Node.js · Firebase · Express |
+| `In Dev` | `In Dev` | `Stable` |
 
 </div>
 
@@ -137,6 +145,7 @@ const tirosh: Developer = {
 
 ### 🌐 Web Technologies
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -153,6 +162,12 @@ const tirosh: Developer = {
 ![Firestore](https://img.shields.io/badge/Firestore-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 ![Netlify](https://img.shields.io/badge/Netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+![Linux VPS](https://img.shields.io/badge/Linux%20VPS-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+### 🔐 Security & Networking
+![Xray](https://img.shields.io/badge/Xray%20Core-1C1C1C?style=for-the-badge&logo=v2ray&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 
 ### 🤖 IoT & Hardware
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
@@ -167,6 +182,7 @@ const tirosh: Developer = {
 ![Figma](https://img.shields.io/badge/Figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Termux](https://img.shields.io/badge/Termux-000000?style=for-the-badge&logo=gnometerminal&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-0078D4?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
 </div>
 
@@ -176,21 +192,55 @@ const tirosh: Developer = {
 
 <div align="center">
 
-| **Activity & Contributions** | **Languages Used** |
-| :---: | :---: |
-| <img src="https://github-readme-stats.vercel.app/api?username=shanudhatirosh&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;count_private=true" width="400" /> | <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shanudhatirosh&amp;theme=tokyonight&amp;hide_border=true&amp;layout=compact&amp;langs_count=8" width="400" /> |
-| <img src="https://github-readme-streak-stats.herokuapp.com/?user=shanudhatirosh&amp;theme=tokyonight&amp;hide_border=true" width="400" /> | <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shanudhatirosh&amp;theme=tokyonight&amp;utcOffset=5.5" width="400" /> |
+<img src="https://github-readme-stats.vercel.app/api?username=shanudhatirosh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github&include_all_commits=true" width="49%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shanudhatirosh&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" width="49%" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=shanudhatirosh&amp;theme=tokyonight&amp;hide_border=true&amp;custom_title=Contribution%20Dynamics" width="850" />
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=shanudhatirosh&theme=tokyonight&hide_border=true" width="49%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shanudhatirosh&theme=tokyonight&utcOffset=5.5" width="49%" />
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=shanudhatirosh&theme=tokyo-night&hide_border=true&custom_title=Contribution%20Dynamics&area=true" width="100%" />
 
 </div>
 
 ---
 
-## 🏆 GitHub Trophies
+## 🌐 Social & Community Activity
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=shanudhatirosh&amp;theme=tokyonight&amp;no-frame=true&amp;column=4&amp;margin-w=15&amp;margin-h=15" alt="GitHub Trophies"/>
+
+### 💬 Find Me Online
+
+[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/shanudatirosh)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Shanudha_tirosh)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shanudhatirosh/)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/message/QP3K6ULE2CLAC1)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tiroshbrot123@gmail.com)
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/tirosh.shanudha)
+[![CodePen](https://img.shields.io/badge/CodePen-%23000000.svg?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/@Shanudha-Tirosh)
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@ShanuFx)
+[![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?style=for-the-badge&logo=tiktok&logoColor=white)](https://tiktok.com/@shanudhatirosh)
+
+</div>
+
+---
+
+## 🎮 Discord Activity
+
+<div align="center">
+
+> 🔗 **Join the ShanuFx Community Server** — get updates on all projects, early access builds, and dev chat!
+
+[![Discord Server](https://img.shields.io/discord/1496522681007210577?style=for-the-badge&logo=discord&logoColor=white&label=ShanuFx%20Community&color=5865F2)](https://discord.gg/Rzq4fnUuy)
+
+<!-- Replace YOUR_DISCORD_USER_ID below with your actual Discord User ID for the live presence card -->
+<!-- To enable: Join https://discord.gg/lanyard and get your User ID from Discord settings -->
+
+[![Discord Presence](https://lanyard.cnrad.dev/api/1477941751699214478?theme=dark&bg=0d1117&borderRadius=10px&idleMessage=Probably+shipping+code...&hideDiscrim=true)](https://discord.com/users/1477941751699214478)
+
 </div>
 
 ---
@@ -224,9 +274,13 @@ Python       █░░░░░░░░░░░░░░   04.00 %
   │                                                                     │
   ├─ ⚡ IoT projects — ESP8266, MQTT, Smart Plant Irrigation           │
   │                                                                     │
+  ├─ 🔐 NovaNexX VPN Core — Xray/3x-ui installer, stable              │
+  │                                                                     │
+  ├─ 🎬 Cenova Cinema Export Manager — production ready                │
+  │                                                                     │
   ├─ 🔥 ShanuFx brand launched — consistent identity across projects   │
   │                                                                     │
-  └─ 🔐 NovaNexX VPN Platform — biggest production project to date ──▶
+  └─ 🚀 Nexses Ecosystem — biggest multi-platform build to date ──────▶
 ```
 
 ---
@@ -236,8 +290,8 @@ Python       █░░░░░░░░░░░░░░   04.00 %
 - 🔓 **Android Root Tooling** — Custom ROMs, Magisk modules, ADB/Fastboot workflows
 - 🌐 **Web Scraping & APIs** — Node.js scrapers, Next.js `__NEXT_DATA__` extraction, REST APIs
 - 🤖 **WhatsApp Bot Ecosystem** — Plugin architectures, multi-device Baileys sessions, media downloaders
-- 📡 **Network Utilities** — ARP-based device discovery, hotspot management, tethering tools
-- 🌴 **Sri Lanka-Specific Tools** — Sinhala language support, local payment integrations, local route tracking
+- 📡 **Network Utilities** — Xray/V2Ray config generation, ISP bypass (Dialog/Mobitel), Cloudflare CDN fronting
+- 🌴 **Sri Lanka-Specific Tools** — Sinhala language support, local payment integrations (HelaPay, eZcash), local route tracking
 
 ---
 
@@ -247,17 +301,19 @@ Python       █░░░░░░░░░░░░░░   04.00 %
   <tr>
     <td>
       <b>Q1–Q2 2026</b><br>
-      ✅ NovaNexX VPN platform core features<br>
-      ✅ WhatsApp Admin Bot for NovaNexX<br>
-      🔄 Firebase offline persistence optimization<br>
-      🔄 ShanuFx Android utility app (HotspotX) v2
+      ✅ NovaNexX VPN Core — stable & open source<br>
+      ✅ Cenova Cinema Export Manager — stable<br>
+      🔄 NovaNexX Platform frontend + payment flows<br>
+      🔄 Nexsuse Admin Panel — base features<br>
+      🔄 ShanuFx Community Website launch
     </td>
     <td>
       <b>Q3–Q4 2026</b><br>
+      ⬜ Nexses Platform full launch<br>
+      ⬜ NoxaPOS — stable release<br>
+      ⬜ SHANU-MD v3 — plugin ecosystem<br>
       ⬜ Advanced Android Security & Internals<br>
-      ⬜ Deep Learning integration for IoT<br>
-      ⬜ ShanuFx Downloader — stable release<br>
-      ⬜ Open source contribution milestone: 10+ repos
+      ⬜ Open source milestone: 10+ active repos
     </td>
   </tr>
 </table>
@@ -282,14 +338,62 @@ Python       █░░░░░░░░░░░░░░   04.00 %
 
 | Project | Type | Stack | Status |
 |---------|------|-------|--------|
-| **NovaNexX** | VPN Hosting Platform | React, Vite, Firebase, Node.js | 🟢 Active |
-| **SHANU-MD** | WhatsApp Bot | Baileys, MongoDB, Node.js | 🟢 Stable |
-| **ShanuFx HotspotX** | Android App | Kotlin, Compose, MVVM | 🔵 In Dev |
-| **ShanuFx Downloader** | Desktop App | Python, PyQt6, yt-dlp | 🟡 Beta |
-| **LankaTrack** | Bus Tracker Web App | Leaflet.js, Firebase | 🟢 Live |
-| **Novamesh** | Smart Hotspot OS | Android, Firebase, Root | 🔵 In Dev |
-| **Smart-Plant-IoT** | Irrigation System | ESP8266, MQTT, C++ | 🟢 Deployed |
-| **GuardLink** | Parental Control | Android, Firebase | 🔵 In Dev |
+| **NovaNexX VPN Core** | VPN Server Installer | Bash · Xray · 3x-ui · Nginx | 🟢 Stable |
+| **Cenova Cinema Export Manager** | Cinema Management System | Node.js · Firebase · Express | 🟢 Stable |
+| **NovaNexX Platform** | VPN Hosting Platform | React · Vite · Firebase · Node.js | 🔵 In Dev |
+| **SHANU-MD** | WhatsApp Multi-Device Bot | Baileys · MongoDB · Node.js | 🔵 In Dev |
+| **ShanuFx Community Website** | Community Platform | Next.js · Firebase · React | 🔵 In Dev |
+| **Nexses Platform** | All-in-one Web Platform | Next.js · Node.js · Firebase | 🔵 In Dev |
+| **Nexsuse Panel** | Admin Control Panel | React · Node.js · Firebase | 🔵 In Dev |
+| **NoxaPOS** | Point of Sale System | React · Node.js · Firebase | 🔵 In Dev |
+
+---
+
+## ⚡ ShanuTechX — Tech Channel & Community
+
+<div align="center">
+
+![ShanuTechX Banner](https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=24&height=120&text=ShanuTechX&fontSize=55&fontColor=ffffff&animation=fadeIn&desc=Tech%20%7C%20Tools%20%7C%20Tutorials%20%7C%20Sri%20Lanka&descAlignY=75&descAlign=50&fontAlignY=42)
+
+
+</div>
+
+<table align="center">
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <br>
+      <img src="https://raw.githubusercontent.com/ShanudhaTirosh/BRAND_LOGOS/main/SHANUTECHX.png" />
+      <br><br>
+      <p>📡 <b>ShanuTechX</b> is my personal tech channel where I share real-world tools, scripts, tutorials, and project updates — built for the <b>Sri Lankan developer community</b> and beyond.</p>
+      <p>🔧 Covers VPN configs, Android root tooling, bot setups, open source drops, and behind-the-scenes of everything I build under <b>ShanuFx</b>.</p>
+      <p>🌐 <b>Website:</b> <a href="https://novanetxlk.web.app">novanetx</a></p>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <br>
+
+```
+  ╔══════════════════════════════╗
+  ║       ShanuTechX             ║
+  ║  ─────────────────────────  ║
+  ║  📦 Open Source Drops        ║
+  ║  🔐 VPN & Proxy Tutorials    ║
+  ║  🤖 Bot Dev Updates          ║
+  ║  📱 Android Root Guides      ║
+  ║  🌴 Sri Lanka Dev Content    ║
+  ╚══════════════════════════════╝
+```
+
+  </td>
+  </tr>
+</table>
+
+<div align="center">
+
+[![Telegram Channel](https://img.shields.io/badge/Join%20ShanuTechX-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Shanudha_tirosh)
+[![GitHub](https://img.shields.io/badge/ShanudhaTirosh-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ShanudhaTirosh)
+[![Netch Solutions](https://img.shields.io/badge/Netch%20Solutions-Website-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://novanetxlk.web.app)
+
+</div>
 
 ---
 
@@ -308,22 +412,6 @@ Python       █░░░░░░░░░░░░░░   04.00 %
  ╚══════════════════╝  ╚══════════════════╝  ╚══════════════════╝
 ```
 
-</div>
-
----
-
-## 🌐 Connect with Me
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shanudhatirosh/)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/message/QP3K6ULE2CLAC1)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tiroshbrot123@gmail.com)
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/tirosh.shanudha)
-[![CodePen](https://img.shields.io/badge/CodePen-%23000000.svg?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/@Shanudha-Tirosh)
-
-<br>
-
 📍 **Colombo, Sri Lanka** &nbsp;|&nbsp; 🕐 **UTC +5:30** &nbsp;|&nbsp; 💬 **Open to DMs**
 
 </div>
@@ -337,7 +425,6 @@ Python       █░░░░░░░░░░░░░░   04.00 %
 If you find my projects helpful or interesting, consider:
 
 [![GitHub Sponsors](https://img.shields.io/badge/Sponsor%20me%20on-GitHub-%23EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/shanudhatirosh)
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](buymeacoffee.com/shanudhatirosh)
 
 *Every star ⭐ on a repo means the world to me — it keeps me motivated to keep building!*
 
@@ -371,11 +458,11 @@ If you find my projects helpful or interesting, consider:
 
 <div align="center">
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&amp;theme=tokyonight" alt="Dev Quote"/>
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote"/>
 
 <br><br>
 
-*Built with ❤️ from Sri Lanka 🇱🇰 | ShanuFx © 2026*
+*Built with ❤️ from Sri Lanka 🇱🇰 | ShanuFx & ShanuTechX © 2026*
 
 </div>
 
