@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="500" height="108" viewBox="0 0 500 108">
+     width="500" height="268" viewBox="0 0 500 268">
   <defs>
     <!-- Background gradient -->
     <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
@@ -19,7 +19,7 @@
   </defs>
 
   <!-- Card background + border -->
-  <rect width="500" height="108" rx="16" fill="url(#bgGrad)" stroke="#1e2640" stroke-width="1.5"/>
+  <rect width="500" height="268" rx="16" fill="url(#bgGrad)" stroke="#1e2640" stroke-width="1.5"/>
   <!-- Top gradient accent bar -->
   <rect width="500" height="3" rx="1.5" fill="url(#topBar)"/>
 
@@ -29,25 +29,43 @@
 
   <!-- Status dot (white ring mask + colored dot) -->
   <circle cx="76" cy="76" r="10" fill="#0d1117"/>
-  <circle cx="76" cy="76" r="8"  fill="#747F8D"/>
+  <circle cx="76" cy="76" r="8"  fill="#57F287"/>
 
   <!-- Username -->
   <text x="96" y="46" font-family="'Segoe UI',Arial,sans-serif" font-size="17"
         font-weight="700" fill="#e0e6ff">shanudatirosh</text>
 
   <!-- Status pill -->
-  <rect x="96" y="52" width="80" height="19" rx="9.5" fill="#747F8D" fill-opacity="0.13"/>
-  <circle cx="107" cy="61.5" r="4" fill="#747F8D"/>
+  <rect x="96" y="52" width="80" height="19" rx="9.5" fill="#57F287" fill-opacity="0.13"/>
+  <circle cx="107" cy="61.5" r="4" fill="#57F287"/>
   <text x="116" y="66" font-family="'Segoe UI',Arial,sans-serif" font-size="10.5"
-        font-weight="700" fill="#747F8D">OFFLINE</text>
+        font-weight="700" fill="#57F287">ONLINE</text>
 
   <!-- Custom status (type 4) -->
-  
+  <text x="96" y="89" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#5c6a99"
+            dominant-baseline="middle">New update coming soon! Stay tuned.</text>
 
   <!-- Activity block -->
   
+  <!-- ─ Divider ─ -->
+  <line x1="20" y1="110" x2="480" y2="110" stroke="#1a2345" stroke-width="1"/>
+  <!-- Activity type label -->
+  <text x="24" y="129" font-family="'Segoe UI',Arial,sans-serif" font-size="10"
+        font-weight="700" letter-spacing="1.5" fill="#7aa2f7">PLAYING</text>
+  <!-- App icon (large) -->
+  <rect x="24" y="138" width="64" height="64" rx="10" fill="#1e2640"/>
+         <text x="56" y="178" font-family="'Segoe UI',Arial,sans-serif" font-size="26"
+               fill="#7aa2f7" text-anchor="middle">S</text>
+  <!-- Badge icon (small) -->
+  
+  <!-- Text -->
+  <text x="100" y="156" font-family="'Segoe UI',Arial,sans-serif" font-size="14"
+             font-weight="700" fill="#e0e6ff">Shanu Fx Management</text>
+  <text x="100" y="176" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" fill="#8892b0">[CON]  nginx.conf</text>
+  <text x="100" y="193" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" fill="#8892b0">Powered by Shanu Fx</text>
+  <text x="100" y="211" font-family="'Segoe UI',Arial,sans-serif" font-size="11"   fill="#4a5a80">57:55:29 elapsed</text>
 
   <!-- Footer brand watermark -->
-  <text x="250" y="99" font-family="'Segoe UI',Arial,sans-serif" font-size="9"
+  <text x="250" y="259" font-family="'Segoe UI',Arial,sans-serif" font-size="9"
         fill="#252f50" text-anchor="middle">ShanuFx · Powered by Lanyard</text>
 </svg>
