@@ -29,17 +29,17 @@
 
   <!-- Status dot (white ring mask + colored dot) -->
   <circle cx="76" cy="76" r="10" fill="#0d1117"/>
-  <circle cx="76" cy="76" r="8"  fill="#57F287"/>
+  <circle cx="76" cy="76" r="8"  fill="#FEE75C"/>
 
   <!-- Username -->
   <text x="96" y="46" font-family="'Segoe UI',Arial,sans-serif" font-size="17"
         font-weight="700" fill="#e0e6ff">shanudatirosh</text>
 
   <!-- Status pill -->
-  <rect x="96" y="52" width="80" height="19" rx="9.5" fill="#57F287" fill-opacity="0.13"/>
-  <circle cx="107" cy="61.5" r="4" fill="#57F287"/>
+  <rect x="96" y="52" width="80" height="19" rx="9.5" fill="#FEE75C" fill-opacity="0.13"/>
+  <circle cx="107" cy="61.5" r="4" fill="#FEE75C"/>
   <text x="116" y="66" font-family="'Segoe UI',Arial,sans-serif" font-size="10.5"
-        font-weight="700" fill="#57F287">ONLINE</text>
+        font-weight="700" fill="#FEE75C">IDLE</text>
 
   <!-- Custom status (type 4) -->
   <text x="96" y="89" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#5c6a99"
@@ -61,9 +61,9 @@
   <!-- Text -->
   <text x="100" y="156" font-family="'Segoe UI',Arial,sans-serif" font-size="14"
              font-weight="700" fill="#e0e6ff">Shanu Fx Management</text>
-  <text x="100" y="176" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" fill="#8892b0">[TS]  api.ts</text>
+  <text x="100" y="176" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" fill="#8892b0">[FILE]  .env</text>
   <text x="100" y="193" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" fill="#8892b0">Powered by Shanu Fx</text>
-  <text x="100" y="211" font-family="'Segoe UI',Arial,sans-serif" font-size="11"   fill="#4a5a80">88:32:27 elapsed</text>
+  <text x="100" y="211" font-family="'Segoe UI',Arial,sans-serif" font-size="11"   fill="#4a5a80">91:40:22 elapsed</text>
 
   <!-- Footer brand watermark -->
   <text x="250" y="259" font-family="'Segoe UI',Arial,sans-serif" font-size="9"
