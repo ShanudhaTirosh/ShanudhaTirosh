@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="500" height="108" viewBox="0 0 500 108">
+     width="500" height="268" viewBox="0 0 500 268">
   <defs>
     <!-- Background gradient -->
     <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
@@ -19,7 +19,7 @@
   </defs>
 
   <!-- Card background + border -->
-  <rect width="500" height="108" rx="16" fill="url(#bgGrad)" stroke="#1e2640" stroke-width="1.5"/>
+  <rect width="500" height="268" rx="16" fill="url(#bgGrad)" stroke="#1e2640" stroke-width="1.5"/>
   <!-- Top gradient accent bar -->
   <rect width="500" height="3" rx="1.5" fill="url(#topBar)"/>
 
@@ -29,17 +29,17 @@
 
   <!-- Status dot (white ring mask + colored dot) -->
   <circle cx="76" cy="76" r="10" fill="#0d1117"/>
-  <circle cx="76" cy="76" r="8"  fill="#FEE75C"/>
+  <circle cx="76" cy="76" r="8"  fill="#57F287"/>
 
   <!-- Username -->
   <text x="96" y="46" font-family="'Segoe UI',Arial,sans-serif" font-size="17"
         font-weight="700" fill="#e0e6ff">shanudatirosh</text>
 
   <!-- Status pill -->
-  <rect x="96" y="52" width="80" height="19" rx="9.5" fill="#FEE75C" fill-opacity="0.13"/>
-  <circle cx="107" cy="61.5" r="4" fill="#FEE75C"/>
+  <rect x="96" y="52" width="80" height="19" rx="9.5" fill="#57F287" fill-opacity="0.13"/>
+  <circle cx="107" cy="61.5" r="4" fill="#57F287"/>
   <text x="116" y="66" font-family="'Segoe UI',Arial,sans-serif" font-size="10.5"
-        font-weight="700" fill="#FEE75C">IDLE</text>
+        font-weight="700" fill="#57F287">ONLINE</text>
 
   <!-- Custom status (type 4) -->
   <text x="96" y="89" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#5c6a99"
@@ -47,8 +47,24 @@
 
   <!-- Activity block -->
   
+  <!-- ─ Divider ─ -->
+  <line x1="20" y1="110" x2="480" y2="110" stroke="#1a2345" stroke-width="1"/>
+  <!-- Activity type label -->
+  <text x="24" y="129" font-family="'Segoe UI',Arial,sans-serif" font-size="10"
+        font-weight="700" letter-spacing="1.5" fill="#7aa2f7">PLAYING</text>
+  <!-- App icon (large) -->
+  <image href="data:image/png;base64,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" x="24" y="138" width="64" height="64" clip-path="url(#largeClip)"/>
+  <!-- Badge icon (small) -->
+  <circle cx="82" cy="196" r="11" fill="#0d1117"/>
+         <image href="data:image/png;base64,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" x="73" y="187" width="18" height="18" clip-path="url(#smallClip)"/>
+  <!-- Text -->
+  <text x="100" y="156" font-family="'Segoe UI',Arial,sans-serif" font-size="14"
+             font-weight="700" fill="#e0e6ff">Code</text>
+  <text x="100" y="176" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" fill="#8892b0">Editing design.md - 4 problems found</text>
+  <text x="100" y="193" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" fill="#8892b0">In shanutechx</text>
+  <text x="100" y="211" font-family="'Segoe UI',Arial,sans-serif" font-size="11"   fill="#4a5a80">1:14:49 elapsed</text>
 
   <!-- Footer brand watermark -->
-  <text x="250" y="99" font-family="'Segoe UI',Arial,sans-serif" font-size="9"
+  <text x="250" y="259" font-family="'Segoe UI',Arial,sans-serif" font-size="9"
         fill="#252f50" text-anchor="middle">ShanuFx · Powered by Lanyard</text>
 </svg>
