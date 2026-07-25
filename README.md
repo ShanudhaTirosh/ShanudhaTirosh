@@ -20,7 +20,7 @@
 <table align="center">
   <tr>
     <td width="55%" valign="top">
-      <p>👋 I'm a <b>self-taught developer</b> based in <b>Sri Lanka 🌴</b>, building things that actually matter — from VPN hosting platforms to WhatsApp automation bots to smart IoT systems.</p>
+      <p>👋 I'm a <b>self-taught developer</b> based in <b>Sri Lanka 🌴</b>, visit on  <a href="https://info.shanutechx.com/">info.shanutechx.com</a> building things that actually matter — from VPN hosting platforms to WhatsApp automation bots to smart IoT systems.</p>
       <p>🌐 <b>Website:</b> <a href="https://info.shanutechx.com/">info.shanutechx.com</a></p>
       <p>I specialize in <b>Android System Engineering</b>, <b>Full-Stack Web Development</b>, and <b>Bot Architecture</b>. I don't build prototypes — I build <i>production-ready systems</i>.</p>
       <p>🔭 <b>2026 Focus:</b> NovaNexX VPN Platform, Nexses Ecosystem, Cenova Cinema Suite & Advanced Android Security.</p>
