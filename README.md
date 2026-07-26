@@ -198,7 +198,7 @@ const tirosh: Developer = {
 <br/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=shanudhatirosh&theme=tokyonight&hide_border=true" width="420" height="195" alt="GitHub Streak" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shanudhatirosh&theme=tokyonight&utcOffset=5.5" width="420" height="195" alt="Productive Time" />
+<img src="https://github-readme-stats-zeta-ten-zwu9lyvhf7.vercel.app/api/cards/productive-time?username=shanudhatirosh&theme=tokyonight&utcOffset=5.5" width="420" height="195" alt="Productive Time" />
 
 <br/>
 
