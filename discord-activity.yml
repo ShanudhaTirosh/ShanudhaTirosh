@@ -1,0 +1,63 @@
+name:  Discord Activity Card
+
+# ─── Triggers ─────────────────────────────────────────────────────────────────
+on:
+  # Refresh every 5 minutes (GitHub may delay up to ~15 min under high load)
+  schedule:
+    - cron: '*/5 * * * *'
+
+  # Manual trigger from GitHub Actions tab
+  workflow_dispatch:
+
+  # Re-generate whenever the script or this workflow itself changes
+  push:
+    paths:
+      - 'scripts/generate-activity.js'
+      - '.github/workflows/discord-activity.yml'
+
+# ─── Permissions ──────────────────────────────────────────────────────────────
+permissions:
+  contents: write   # needed to push the updated SVG
+
+# ─── Job ──────────────────────────────────────────────────────────────────────
+jobs:
+  generate:
+    name: Generate & Commit Activity SVG
+    runs-on: ubuntu-latest
+    # Skip if the previous workflow run hasn't finished yet
+    concurrency:
+      group: discord-activity
+      cancel-in-progress: true
+
+    steps:
+      # 1. Check out the repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Set up Node.js (no npm install needed — script uses only built-ins)
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # 3. Run the generator
+      #    DISCORD_ID is hard-coded here; move to a repo secret if you prefer
+      - name: Generate discord-activity.svg
+        env:
+          DISCORD_ID: '1477941751699214478'
+        run: node scripts/generate-activity.js
+
+      # 4. Commit only if the SVG actually changed
+      #    [skip ci] prevents this commit from triggering another workflow run
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/discord-activity.svg
+          if git diff --staged --quiet; then
+            echo "⏭️  No changes — skipping commit"
+          else
+            git commit -m "chore: update discord activity [skip ci]"
+            git push
+            echo "✅ Committed updated activity card"
+          fi
